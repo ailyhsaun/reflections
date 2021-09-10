@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+When I ran the commands (git init and then git status) I could see the .git as well as all the untracked files within the directory. I am not sure WHY it did not show "initial commit" like in the example though. This is necessary to begin tracking changes to the files, as I understand it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is an in-between area that is used to add existing files into the repository so they can be tracked. The value is that you can control which files are added to a commit.
