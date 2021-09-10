@@ -1,0 +1,40 @@
+Reflections from Lesson 1:
+
+1) How did viewing a difference between two versions help you spot the bug?
+﻿Looking at the code side-by-side manually when there is a LOT of code made me go almost cross-eyed, it is hard to spot the minor differences that can cause big problems for the computer interpreting the code. By using the FC (or diff) function in the command prompt, the system shows me JUST where there are changes which reduces the amount of material to sift through to spot the bug!
+
+2) Reflect: Using History for Efficiency
+Even within programs like AutoCAD, MS Office, and cloud platforms like Google Drive there is modification histories and the ability to view or revert to an older version when necessary. These tools are invaluable when data gets damaged (including file loss) and when perhaps more than one version needs to be tested during design (for example).
+
+In terms of programming (like in the small sample), we were able to test out the proposed change and when it did not work as intended, go back to the original code or continue to experiment (where applicable).
+
+As a programmer, when would you want to have a version of code saved?
+- When there is a logical change (multiple typos, a new feature, etc)
+
+3) Manual Commits
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- biggest pro would be not getting a lot of broken and spaghetti type code
+- Easier to spot problems and identify the changes
+
+4) Reflect: Multi-File Commits
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Version Control System (VCS) like Git were designed for applications like coding where different component files are often linked or related in some way. Meaning changes to one will affect other files necessitating changes to them in order for them to function.
+- VCS like google dock are usually working with files handled separately.
+- It is largely a matter of intended application of the end program as to which way the VCS is intended to operate.
+
+5) Reflect: Using Git to View History
+How can you use the commands git log and git diff to view the history of files?
+- you can use git log to find the ID of the commit where the change occured, then compare it to the one proceeding (git diff) to see the differences. You could ALSO get this info by running git log --stat to find out how many lines were added/removed in a given commit
+- with "git config --global color.ui auto" it colours green for inserts and red for removals
+
+6) Reflect: Confidence from Version Control
+How might using version control make you more confident to make changes that could break something?
+- Simple answer, you can use tools within GIT to go back, find the mistake and corret it at any point
+
+7) Reflect: How Do You Want to Use Git?
+Now that you have your workspace set up, what do you want to try using Git for?
+- not completed setup as I had problems with setting up the text editor (did not have sublime or Notepad ++ (not sure regular notepad would work)
+---------------------------------------------------------------------------------------
+export GIT_PS1_SHOWDIRTYSTATE=1
+
+$ git config --global core.editor "'C:\Program Files\Sublime Text\sublime_text.exe' -n -w"
