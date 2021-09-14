@@ -3,3 +3,6 @@ When I ran the commands (git init and then git status) I could see the .git as w
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is an in-between area that is used to add existing files into the repository so they can be tracked. The value is that you can control which files are added to a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Only add the files that logically go together (like cake and frosting) into a single commit
