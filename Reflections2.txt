@@ -15,3 +15,6 @@ The diagram allows me to see which commots will be reachabe or unreachable along
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 It combines the code from the updated code (coins) into the existing branch (master) into an updated copy of the main file (master). It is represented that way so that it is able to see parent relationships of the commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic leaves it up to the computer/software to decide what is able to be merged and that can be a time saver but CAN cause issues if the computer to have trouble. Manual merging is much more tedious and time consuming.
