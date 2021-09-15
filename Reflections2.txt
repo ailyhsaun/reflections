@@ -12,3 +12,6 @@ Situations like: an experimental change, language adaption, or making a differen
 
 How do the diagrams help you visualize the branch structure?
 The diagram allows me to see which commots will be reachabe or unreachable along a branch as well as where the common commits are.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It combines the code from the updated code (coins) into the existing branch (master) into an updated copy of the main file (master). It is represented that way so that it is able to see parent relationships of the commits.
