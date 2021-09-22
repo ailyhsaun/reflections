@@ -1,3 +1,6 @@
 Lesson 4 - Video 5
 This is not a refleciton persay but I decided to post the URL for my new repository to my notes.
 https://github.com/ailyhsaun/reflections.git
+
+When would you want to use a remote repository rather than keeping all your work local?
+A good example of when this is useful is if you are working from a different computer (like at school) or if someone else is adding to the repository during a collaboration. Either would be a good time to use the remote feature.
