@@ -4,3 +4,6 @@ https://github.com/ailyhsaun/reflections.git
 
 When would you want to use a remote repository rather than keeping all your work local?
 A good example of when this is useful is if you are working from a different computer (like at school) or if someone else is adding to the repository during a collaboration. Either would be a good time to use the remote feature.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+When pushing, you want to do it manually so that something is not "published" prematurely, the same is true for pulls. 
